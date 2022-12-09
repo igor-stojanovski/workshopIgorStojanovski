@@ -12,3 +12,11 @@ body {
 }
 
 /* Global styles */
+
+/* footer */
+
+footer {
+  background-image: url(../images/01/img1.jpg);
+  background-position: center;
+  background-size: cover;
+}
