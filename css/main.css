@@ -12,3 +12,26 @@ body {
 }
 
 /* Global styles */
+
+/* Second Section */
+
+.item {
+  flex-basis: 50%;
+}
+
+.item-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img1 {
+  background-image: url(../images/01/img2.jpg);
+}
+
+.img2 {
+  background-image: url(../images/01/img3.jpg);
+}
+
+.img3 {
+  background-image: url(../images/01/img4.jpg);
+}
