@@ -71,3 +71,11 @@ body {
 .img3 {
   background-image: url(../images/01/img7.jpg);
 }
+
+/* footer */
+
+footer {
+  background-image: url(../images/01/img1.jpg);
+  background-position: center;
+  background-size: cover;
+}
