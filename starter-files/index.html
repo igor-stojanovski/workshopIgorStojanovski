@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/fc22ebfc24.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Bootstrap Components2 Workshop</title>
+  </head>
+  <body class="position-relative">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-lg border-bot">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/logo.png" alt="LOGO"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto font-weight-bold text-uppercase">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Racing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">swimming</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">blog</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav text-white">
+            <li class="nav-item">
+              <a href="www.facebook.com"
+                ><i
+                  class="fa-brands fa-square-facebook text-white fsize18 ml-3"
+                ></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a href="www.twitter.com"
+                ><i
+                  class="fa-brands fa-square-twitter text-white fsize18 ml-3"
+                ></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a href="www.instagram.com"
+                ><i
+                  class="fa-brands fa-square-instagram text-white fsize18 ml-3"
+                ></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide carousel-fade"
+      data-interval="3500"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active position-relative">
+          <img
+            class="d-block w-100"
+            src="./images/banner-1.png"
+            alt="First slide"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="font-weight-bold">
+              Fitness & Aquatic Center <br />
+              Swin club and Lessons
+            </h1>
+            <p>Sponsored by Innovation</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="./images/banner-2.png"
+            alt="Second slide"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- popular news -->
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12 mb-3">
+          <h2 class="h3 text-uppercase font-weight-bold">Popular news</h2>
+        </div>
+        <div class="col-12">
+          <div class="card-deck">
+            <div class="card border-0">
+              <div class="tag">
+                <img
+                  src="./images/blog-1.jpg"
+                  class="card-img-top"
+                  alt="Image"
+                />
+                <span class="text-white bg-primary py-1 px-2">sports</span>
+              </div>
+
+              <div class="card-body pl-0">
+                <h5 class="card-title text-capitalize">
+                  Nations League offers new hope to cayman islands
+                </h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+            <div class="card border-0">
+              <div class="tag">
+                <img
+                  src="./images/blog-2.jpg"
+                  class="card-img-top"
+                  alt="Image"
+                />
+                <span class="text-white bg-secondary py-1 px-2">sports</span>
+              </div>
+
+              <div class="card-body pl-0">
+                <h5 class="card-title text-capitalize">
+                  Nations League offers new hope to cayman islands
+                </h5>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+              </div>
+            </div>
+            <div class="card border-0">
+              <div class="tag">
+                <img
+                  src="./images/blog-3.jpg"
+                  class="card-img-top"
+                  alt="Image"
+                />
+                <span class="text-white bg-warning py-1 px-2">sports</span>
+              </div>
+
+              <div class="card-body pl-0">
+                <h5 class="card-title text-capitalize">
+                  Nations League offers new hope to cayman islands
+                </h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This card has even longer
+                  content than the first to show that equal height action.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- trending -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mb-3">
+          <h2 class="h3 text-uppercase font-weight-bold">
+            Trending This Month
+          </h2>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="row">
+            <div class="col-6">
+              <a href="#" class="position-relative text-white fsize14">
+                <img
+                  src="./images/blog-4.jpg"
+                  alt="blog"
+                  class="w-100 d-block"
+                />
+                <p class="img-desc">
+                  Aston Martin will replace V-8 with inhouse developed V-6
+                </p>
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="#" class="position-relative text-white fsize14">
+                <img
+                  src="./images/blog-5.jpg"
+                  alt="blog"
+                  class="w-100 d-block"
+                />
+                <p class="img-desc">
+                  Aston Martin will replace V-8 with inhouse developed V-6
+                </p>
+              </a>
+            </div>
+
+            <div class="col-12 pt-3">
+              <a href="#" class="position-relative text-white fsize14">
+                <img
+                  src="./images/blog-6.png"
+                  alt="blog"
+                  class="w-100 d-block"
+                />
+                <p class="img-desc">
+                  Aston Martin will replace V-8 with inhouse developed V-6
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="row">
+            <div class="col-12 pb-3 mt-3 mt-lg-0">
+              <a href="#" class="position-relative text-white fsize14">
+                <img
+                  src="./images/blog-6.png"
+                  alt="blog"
+                  class="w-100 d-block"
+                />
+                <p class="img-desc">
+                  Aston Martin will replace V-8 with inhouse developed V-6
+                </p>
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="#" class="position-relative text-white fsize14">
+                <img
+                  src="./images/blog-4.jpg"
+                  alt="blog"
+                  class="w-100 d-block"
+                />
+                <p class="img-desc">
+                  Aston Martin will replace V-8 with inhouse developed V-6
+                </p>
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="#" class="position-relative text-white fsize14">
+                <img
+                  src="./images/blog-5.jpg"
+                  alt="blog"
+                  class="w-100 d-block"
+                />
+                <p class="img-desc">
+                  Aston Martin will replace V-8 with inhouse developed V-6
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- related news -->
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12 mb-3">
+          <h2 class="h3 font-weight-bold text-uppercase">Related news</h2>
+        </div>
+        <div class="col-12">
+          <ul class="list-unstyled">
+            <li class="media">
+              <img
+                src="./images/blog-1.jpg"
+                class="mr-3 w-25 d-block"
+                alt="..."
+              />
+              <div class="media-body align-self-center">
+                <h5 class="mt-0 mb-1">
+                  Nations League offers new hopt o cayman islands
+                </h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem aliquid tempore reprehenderit rem, sequi laborum.
+                </p>
+              </div>
+            </li>
+            <li class="media my-4">
+              <img
+                src="./images/blog-2.jpg"
+                class="mr-3 w-25 d-block"
+                alt="..."
+              />
+              <div class="media-body align-self-center">
+                <h5 class="mt-0 mb-1">List-based media object</h5>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit
+                  quae sapiente commodi soluta a atque!
+                </p>
+              </div>
+            </li>
+            <li class="media">
+              <img
+                src="./images/blog-3.jpg"
+                class="mr-3 w-25 d-block"
+                alt="..."
+              />
+              <div class="media-body align-self-center">
+                <h5 class="mt-0 mb-1">List-based media object</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+                  perspiciatis sint quam maiores explicabo et.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer class="container-fluid bg-dark">
+      <div class="container-lg py-5">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <h2 class="h5 text-white text-uppercase">contact info</h2>
+            <ul class="list-unstyled text-white">
+              <li>
+                <p class="text-capitalize">
+                  The business Center 2,my street, kingston new york 12401
+                </p>
+              </li>
+            </ul>
+            <div class="row">
+              <div class="col-12">
+                <h2 class="h5 text-white text-uppercase">phone info</h2>
+                <ul class="list-unstyled text-white">
+                  <li>
+                    <p class="text-capitalize">Phone: +12312125414</p>
+                  </li>
+                  <li>
+                    <p class="text-capitalize">Email: igor@gmail.com</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <h2 class="h5 text-white text-uppercase">club opne hours</h2>
+            <ul class="list-unstyled text-white">
+              <li>
+                <p class="text-capitalize mb-0">Monday: 2am - 5pm</p>
+              </li>
+              <li>
+                <p class="text-capitalize mb-0">Tueday: 2am - 5pm</p>
+              </li>
+              <li>
+                <p class="text-capitalize mb-0">Wednesday: 2am - 5pm</p>
+              </li>
+              <li>
+                <p class="text-capitalize mb-0">Thursday: 2am - 5pm</p>
+              </li>
+              <li>
+                <p class="text-capitalize mb-0">Friday: 2am - 5pm</p>
+              </li>
+              <li>
+                <p class="text-capitalize mb-0">Saturday: 2am - 5pm</p>
+              </li>
+              <li>
+                <p class="text-capitalize mb-0">Sunday: 2am - 5pm</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <h2 class="h5 text-white text-uppercase">popular news</h2>
+            <ul class="list-unstyled text-white">
+              <li>
+                <p class="text-capitalize mb-0 py-2 border-bot">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </li>
+              <li>
+                <p class="text-capitalize mb-0 py-2 border-bot">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </li>
+              <li>
+                <p class="text-capitalize mb-0 py-2 border-bot">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </li>
+              <li>
+                <p class="text-capitalize mb-0 py-2">
+                  Lorem ipsum dolor sit amet.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <h2 class="h5 text-white text-uppercase mb-3">Search</h2>
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search"
+                aria-label="Search"
+                aria-describedby="button-addon2"
+              />
+              <div class="input-group-append">
+                <button
+                  class="btn btn-primary"
+                  type="button"
+                  id="button-addon2"
+                >
+                  Button
+                </button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <h2 class="h5 text-white text-uppercase mb-3">Tag cloud</h2>
+                <button
+                  type="button"
+                  class="btn btn-secondary mt-2"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Tooltip on top"
+                >
+                  Featured
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary mt-2"
+                  data-toggle="tooltip"
+                  data-placement="right"
+                  title="Tooltip on right"
+                >
+                  Rading
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary mt-2"
+                  data-toggle="tooltip"
+                  data-placement="bottom"
+                  title="Tooltip on bottom"
+                >
+                  Running
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary mt-2"
+                  data-toggle="tooltip"
+                  data-placement="left"
+                  title="Tooltip on left"
+                >
+                  Sport
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jquery -->
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <!-- popper -->
+    <script src="./js/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"').tooltip();
+      });
+    </script>
+  </body>
+</html>

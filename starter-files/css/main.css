@@ -1,0 +1,58 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 16;
+}
+
+.fsize14 {
+  font-size: 14px;
+}
+
+.fsize18 {
+  font-size: 18px;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.tag {
+  position: relative;
+}
+
+.tag span {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.img-desc {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+@media (min-width: 993px) {
+  body {
+    padding-top: 0;
+  }
+  .border-bot {
+    border-bottom: 1px solid white;
+  }
+  .navbar {
+    background-color: transparent;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    padding-top: 76px;
+  }
+  .navbar {
+    background-color: #6c757e;
+  }
+}
